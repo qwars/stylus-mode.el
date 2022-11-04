@@ -559,6 +559,7 @@ the current line."
   (setq-local indent-tabs-mode t)
   (setq-local comment-multi-line t)
   (setq-local tab-width stylus-indent-offset)
+
   (local-set-key (kbd "<tab>") 'insert-tab-char)
   (local-set-key (kbd "<C-tab>") 'indent-rigidly-right-to-tab-stop)
   (local-set-key (kbd "<C-M-tab>") 'indent-rigidly-left-to-tab-stop)
