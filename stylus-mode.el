@@ -555,7 +555,7 @@ the current line."
   (interactive "P" )
   (set-selective-display (or column (unless selective-display (1+ (current-column))))))
 
-
+;;;###autoload
 (define-derived-mode stylus-mode nil "Stylus"
   "Simple mode to edit Stylus.
 
